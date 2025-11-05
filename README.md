@@ -41,9 +41,7 @@ Feature schema:
 
 Performance is evaluated using **macro ROC-AUC**:
 
-$$
-\text{score}=\frac{1}{2}\left(\mathrm{ROC\text{-}AUC}\!\left(\text{week\char`_churn}\right)+\mathrm{ROC\text{-}AUC}\!\left(\text{month\char`_churn}\right)\right)
-$$
+`score = $1/2$ * (ROC-AUC(week_churn) + ROC-AUC(month_churn))`
 
 Submission probabilities must be valid floats in `[0, 1]`.
 
