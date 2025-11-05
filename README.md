@@ -14,10 +14,9 @@ All text data has been pre-processed into numerical representations by the organ
 ---
 
 ## 🧾 Repository Contents
-├── task.pdf # Original problem statement
-├── solution.ipynb # Jupyter Notebook with full solution pipeline
-└── README.md # Project documentation
-
+- `task.pdf` — Original problem statement  
+- `solution.ipynb` — Jupyter Notebook with full solution pipeline  
+- `README.md` — Project documentation
 
 ---
 
@@ -42,11 +41,11 @@ Feature schema:
 
 Performance is evaluated using **macro ROC-AUC**:
 
-\[
-\text{score} = \frac{1}{2} \cdot (ROC\_AUC(\text{week\_churn}) + ROC\_AUC(\text{month\_churn}))
-\]
+$$
+\text{score}=\frac{1}{2}\Big(\mathrm{ROC\_AUC}(\text{week\_churn})+\mathrm{ROC\_AUC}(\text{month\_churn})\Big)
+$$
 
-Submission probabilities must be valid floats in \[0, 1\].
+Submission probabilities must be valid floats in `[0, 1]`.
 
 ---
 
@@ -115,8 +114,8 @@ The implementation in `solution.ipynb` includes:
 
 ## 🏁 Final Output
 
-Last submission was estimated with **0.95068** ROC AUC.
-Our team took the 7th place among more than 50 teams.
+Last submission was estimated with **0.951** ROC AUC.
+Our team took the **7th** place among more than 50 teams.
 
 ---
 
